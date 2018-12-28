@@ -336,7 +336,7 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === '1general_commands') {
         let helpEmbed = new Discord.RichEmbed()
-        .setTitle('**أوامر عامة...**')
+        .setTitle('**اوامر عامة...**')
         .addField('avatar', "افاتار الشخص المطلوب")
         .addField('gif', 'البحث عن جيف انت تطلبه')
         .addField('ping', 'معرفة ping البوت')
